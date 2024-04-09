@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: rgb(121,123,250);
+  --secondary-color:rgb(206,186,251);
+  --color: rgb(73,72,91);
+  --color-grey: #4b4747b7;
+  --color-light-grey:  #66606065;
+  --color-white: #fff;
+}
+
+body{
+  background: #ffffff;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    
+
+  
+}
+
+h1{
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+p{
+  color: var(--color-grey);
+  font-weight: 500;
+}
+
+.button{
+  text-align: center;
+  border: 0;
+  background:var(--primary-color);
+  padding: 1rem;
+  border-radius: .4rem;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 100%;
+
+
+}
+
+
+

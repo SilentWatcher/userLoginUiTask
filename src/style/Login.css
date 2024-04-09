@@ -1,0 +1,22 @@
+.login_main_container{
+    min-height: 100dvh;
+    max-width: 30em;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.login_container {
+    padding: 1rem;
+    min-width:100%;
+    margin-top: 2rem;
+}
+
+.login_container h1,.login_container p {
+    margin-bottom: 1.25rem;
+}
